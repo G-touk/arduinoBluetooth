@@ -6,7 +6,7 @@
 #include "Timer.h"
 
 
-//Timer t;
+Timer t;
 
 
 #define LED   13;                                     // select the pin for the LED
@@ -36,8 +36,8 @@ void initBT()
   Serial.println("SET BT LAP 9e8b33");
   Serial.println("SET CONTROL READY 00");
   Serial.println("SET PROFILE SPP Bluetooth Serial Port");
-  Serial.println("INQUIRY 8 LINK MD3484F00713");
-  Serial.println("CALL E4:04:39:21:B9:C7 5 RFCOMM");
+  Serial.println("INQUIRY 8 NAME_OF_THE_REMOTE_DEVICE");
+  Serial.println("CALL MAC:ADDR:OF:THE:REMOTE:DEVICE 5 RFCOMM");
 }
 
 void setup() {

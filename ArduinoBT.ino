@@ -1,7 +1,4 @@
-/*
-* - Toufik Zarouali
-*   Bluetooth connection
-*/
+
 
 #include "Timer.h"
 

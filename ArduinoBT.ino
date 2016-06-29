@@ -13,7 +13,7 @@ Timer t;
 void initBT()
 {
   Serial.println("SET CONTROL BAUD 115200,8n1");
-  Serial.println("SET BT NAME GKEEP");
+  Serial.println("SET BT NAME MY_DEVICE");
   Serial.println("SET BT CLASS 001f00");                                                // No spaces allowed in the name; names can be up to 256 charcters.
   Serial.println("SET BT IDENT BT:47 f000 4.0.0 Bluegiga iWRAP");        // example
   Serial.println("SET BT LAP 9e8b33");
